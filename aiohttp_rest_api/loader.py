@@ -4,7 +4,7 @@ from inspect import getmembers, isclass
 
 from aiohttp.web import Application
 
-from aiohttp_rest_api.rest_endpoint  import AioHTTPRestEndpoint, SUPPORTED_METHODS
+from aiohttp_rest_api  import AioHTTPRestEndpoint, SUPPORTED_METHODS
 from aiohttp_rest_api.swagger import generate_doc_template, build_doc_from_func_doc
 
 
